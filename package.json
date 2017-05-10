@@ -4,6 +4,9 @@
   "author": "Raul Rene Lepsa <raul.lepsa@gmail.com>",
   "description": "A Javascript bot that searches for tweets about contests and retweets them.",
   "license": "MIT",
+  "scripts":{
+    "start":"node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/lissy93/twitter-contest-js-bot.git"
