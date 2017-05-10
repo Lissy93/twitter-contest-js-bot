@@ -1,3 +1,4 @@
+const swearjar = require('swearjar');
 const API = require('./api-functions');
 const config = require('./config');
 
@@ -93,6 +94,10 @@ class ContestJSBot {
                     if (tweet.text.indexOf(phrase) > -1) {
                         containsBlockedPhrases = true;
                         return false;
+                    }
+                    if(swearjar.profane(tweet.text)){
+                      containsBlockedPhrases = true;
+                      return false;
                     }
                 });
                 if (containsBlockedPhrases) return;
