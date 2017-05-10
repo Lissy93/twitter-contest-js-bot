@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/raulrene/twitter-contest-js-bot.git"
+    "url": "git://github.com/lissy93/twitter-contest-js-bot.git"
   },
   "dependencies": {
     "request-promise": "^0.4.3"
